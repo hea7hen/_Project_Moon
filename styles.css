@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1696552004842-8c72b901e2a8?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnMlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D");
+}
+
+/* .drop_down{
+    position: absolute;
+    justify-content: center;
+    top: 55%;
+    left: 50%;
+} */
+
+/* .image{
+    position: absolute;
+    justify-content: center;
+    top: 25%;
+    left: 50%;
+} */
+
+.drop_down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; 
+}
+.image{
+    display: none;
+}
+
+.image img1 {
+    margin-bottom: -50px;
+    display: none;
+}
+.image img2 {
+    margin-bottom: -50px;
+    display: none;
+}
+.image img3 {
+    margin-bottom: -50px;
+    display: none;
+}
+.image img4 {
+    margin-bottom: 50px;
+    display: block;
+    width: 1000px;
+    height: auto;
+}
+.image img5 {
+    margin-bottom: 50px;
+    display: none;
+}
+
+select {
+    width: 100px; 
+    padding: 5px;
+    color: #404040;
+    border-radius: 2px;
+}
